@@ -1,29 +1,63 @@
 PODS:
-  - AppCenter (4.2.0):
-    - AppCenter/Analytics (= 4.2.0)
-    - AppCenter/Crashes (= 4.2.0)
-  - AppCenter/Analytics (4.2.0):
+  - AppCenter (4.4.2):
+    - AppCenter/Analytics (= 4.4.2)
+    - AppCenter/Crashes (= 4.4.2)
+  - AppCenter/Analytics (4.4.2):
     - AppCenter/Core
-  - AppCenter/Core (4.2.0)
-  - AppCenter/Crashes (4.2.0):
+  - AppCenter/Core (4.4.2)
+  - AppCenter/Crashes (4.4.2):
     - AppCenter/Core
+  - FFmpeg (2.8.3):
+    - FFmpeg/precompiled (= 2.8.3)
+  - FFmpeg/precompiled (2.8.3)
+  - freetype (2.6.4)
+  - ImageMagick (6.8.8-9):
+    - ImageMagick/jpeg (= 6.8.8-9)
+    - ImageMagick/png (= 6.8.8-9)
+    - ImageMagick/tiff (= 6.8.8-9)
+    - ImageMagick/wand (= 6.8.8-9)
+  - ImageMagick/jpeg (6.8.8-9)
+  - ImageMagick/png (6.8.8-9)
+  - ImageMagick/tiff (6.8.8-9)
+  - ImageMagick/wand (6.8.8-9)
+  - sqlite3 (3.25.3):
+    - sqlite3/common (= 3.25.3)
+  - sqlite3/common (3.25.3)
+  - sqlite3/fts (3.25.3):
+    - sqlite3/common
+  - sqlite3/fts5 (3.25.3):
+    - sqlite3/common
   - VSMobileCenterExtensions (0.9.1)
 
 DEPENDENCIES:
   - AppCenter
   - AppCenter/Analytics
   - AppCenter/Crashes
+  - FFmpeg (= 2.8.3)
+  - freetype (= 2.6.4)
+  - ImageMagick (= 6.8.8-9)
+  - sqlite3 (= 3.25.3)
+  - sqlite3/fts
+  - sqlite3/fts5
   - VSMobileCenterExtensions
 
 SPEC REPOS:
   trunk:
     - AppCenter
+    - FFmpeg
+    - freetype
+    - ImageMagick
+    - sqlite3
     - VSMobileCenterExtensions
 
 SPEC CHECKSUMS:
-  AppCenter: 87ef6eefd8ade4df59e88951288587429f3dd2a5
+  AppCenter: b0eca112a27b71e97488ffa1949ee38c7abd4b79
+  FFmpeg: f1428c3b60b5f9e349fcd5d7878705cd7f9a26f6
+  freetype: f1607aa45440e7cc17c85c32e901f32b7b801fad
+  ImageMagick: e8c089d133679d505c98dc97f3dc5be0e706e1df
+  sqlite3: 2d1742c206acbabc99593666bd359b19223ee0d8
   VSMobileCenterExtensions: 5f8b4b284f6817c1d58e860bf7ad0945f1244733
 
-PODFILE CHECKSUM: afd045c8011878a0b57ece97bc75b3ddd27a3cb0
+PODFILE CHECKSUM: 09d7239af1166c702e0b60371581b75408b744ef
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3
